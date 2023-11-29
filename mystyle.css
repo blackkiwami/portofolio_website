@@ -1,17 +1,56 @@
+header {
+    padding-left: 1000px;
+}
+
+
 .box {
-  width: 42px;
-  height: 60px;
-  padding-left: 509px;
+    display: block;
+    width: 682px;
+    padding-left: 243px;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 37px;
+}
+
+.box:nth-child(n + 2) {
+    margin-top: 43px;
+}
+
+.image {
+    display: inline-block;
+    width: 246px;
+    vertical-align: top;
+}
+
+.box_s {
+    display: inline-block;
+    width: 418px;
+    vertical-align: top;
+}
+
+
+
+h2 {
+    display: block;
+    width: 305px;
+    margin: 0;
+    padding-left: 18px;
 }
 
 .box2 {
-  width: 97px;
-  height: 29px;
-  padding-left: 587px;
+    display: inline-block;
+    width: 42px;
+    padding-left: 18px;
 }
 
-header {
-    padding-left: 1000px;
+.box3 {
+    display: inline-block;
+    width: 97px;
+}
+
+.stc {
+    display: inline-block;
+    width: 418px;
+    padding-left: 18px;
 }
 
 
@@ -20,17 +59,22 @@ h1 {
     padding-left: 243px;
 }
 
-h2 {
-    padding-left: 499px;
-}
-
-.stc {
-    padding-left: 499px;
-}
-
 footer {
-    padding-left: 250px;
+    text-align: center;
 }
-img {
-    padding-left: 235px;
+
+#fb {
+    padding-right: 40px;
+}
+
+#insta {
+    padding-right: 40px;
+}
+
+#Group {
+    padding-right: 40px;
+}
+
+#Link {
+    padding-right: 40px;
 }
