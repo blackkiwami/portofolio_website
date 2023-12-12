@@ -1,5 +1,52 @@
+html {
+    font-family: inherit;
+}
+
 header {
     text-align: right;
+    padding-top: 27px;
+    padding-right: 60px;
+    font-size: 20px;
+}
+
+.nav_a:hover {
+    text-decoration: underline;
+    text-decoration-color:dodgerblue;
+}
+
+.nav_b:hover {
+    text-decoration: underline;
+    text-decoration-color:dodgerblue;
+}
+
+.nav_c:hover {
+    text-decoration: underline;
+    text-decoration-color:dodgerblue;
+}
+
+.nav_a {
+   display: inline-block;
+   width: 93px;
+   height: 43px;
+   left: 800px;
+   size: 20px;
+}
+
+.nav_b {
+    display: inline-block;
+    width: 93px;
+    height: 43px;
+    left: 893px;
+    size: 20px;
+    color:#FF6464;
+}
+
+.nav_c {
+   display: inline-block;
+   width: 93px;
+   height: 43px;
+   left: 986px;
+   size: 20px;
 }
 
 main {
@@ -34,60 +81,74 @@ main {
 
 h2 {
     display: block;
-    width: 305px;
+    width: 700px;
     margin: 0;
     padding-left: 18px;
+    font-size: 30px;
 }
 
 .box2 {
     display: inline-block;
     color: white;
     background-color: black;
-    width: 50px;
+    width: 62px;
     height: 25px;
     border-radius: 9999px;
     margin-left: 18px;
-    margin-top: 20px;
+    margin-top: 18px;
     text-align: center;
+    font-size: 18px;
+    font-family: Heebo;
 }
 
 .box3 {
     display: inline-block;
-    width: 97px;
-    color: gray;
-    margin-top: 20px;
-    margin-left: 30px;
+    color: #8695A4;
+    margin-top: 0;
+    margin-left: 26px;
+    width: 211px;
+    height: 29px;
+    font-size: 20px;
 }
 
 .stc {
     display: inline-block;
-    width: 418px;
+    width: 454px;
+    height: 93;
     padding-left: 18px;
-    margin-top: 20px;
+    margin-top: 18px;
+    font-size: 16px;
 }
 
 
 
-h1 {
+h1 { 
+    font-size: 44px;
 }
 
 footer {
     text-align: center;
-    margin-top: 100px; 
+    padding-top: 51px;
+    padding-bottom: 54px; 
+    font-size: 0;
+    margin-top: 58px;
 }
 
-#fb {
-    padding-right: 40px;
+.imagebox {
+    display: inline-block;
+    margin-right: 35px;
 }
 
-#insta {
-    padding-right: 40px;
+.imagebox:last-child {
+    margin-right: 0;
 }
 
-#Group {
-    padding-right: 40px;
+footer img {
+    display: block;
 }
 
-#Link {
-    padding-right: 40px;
+.footer_s {
+    margin-top: 26px;
+    margin-bottom: 0    ;
+    font-size: 14px;
 }
