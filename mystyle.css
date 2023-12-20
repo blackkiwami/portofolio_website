@@ -2,63 +2,65 @@ html {
     font-family: inherit;
 }
 
+body {
+    margin: 0;
+}
+
 header {
     text-align: right;
-    padding-top: 27px;
-    padding-right: 60px;
+    padding: 20px 60px;
     font-size: 20px;
 }
 
 .nav_a:hover {
     text-decoration: underline;
     text-decoration-color:dodgerblue;
-}
-
-.nav_b:hover {
-    text-decoration: underline;
-    text-decoration-color:dodgerblue;
+    cursor: pointer;
 }
 
 .nav_c:hover {
     text-decoration: underline;
     text-decoration-color:dodgerblue;
+    cursor: pointer;
 }
 
 .nav_a {
    display: inline-block;
-   width: 93px;
-   height: 43px;
-   left: 800px;
-   size: 20px;
+   font-size: 20px;
+   font-weight: 500;
 }
 
 .nav_b {
     display: inline-block;
-    width: 93px;
-    height: 43px;
-    left: 893px;
-    size: 20px;
     color:#FF6464;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .nav_c {
    display: inline-block;
-   width: 93px;
-   height: 43px;
-   left: 986px;
-   size: 20px;
+   margin-left: 20px;
+   font-size: 20px;
+   font-weight: 500;
+
 }
 
 main {
     display: block;
     width: 682px;
-    margin: 0 auto;
+    margin: 42px auto 0;
+}
+
+.box-list {
+    margin-top: 42px;
 }
 
 .box {
     display: block;
     border-bottom: 1px solid #E0E0E0;
     padding-bottom: 37px;
+    font-size: 0;
 }
 
 .box:nth-child(n + 2) {
@@ -75,15 +77,14 @@ main {
     display: inline-block;
     width: 418px;
     vertical-align: top;
+    margin-left: 18px;
 }
 
 
 
 h2 {
     display: block;
-    width: 700px;
     margin: 0;
-    padding-left: 18px;
     font-size: 30px;
 }
 
@@ -92,12 +93,10 @@ h2 {
     color: white;
     background-color: black;
     width: 62px;
-    height: 25px;
-    border-radius: 9999px;
-    margin-left: 18px;
-    margin-top: 18px;
-    text-align: center;
     font-size: 18px;
+    line-height: 25px;
+    border-radius: 9999px;
+    text-align: center;
     font-family: Heebo;
 }
 
@@ -111,11 +110,15 @@ h2 {
     font-size: 20px;
 }
 
+.box4 {
+    margin-top: 18px;
+}
+
 .stc {
-    display: inline-block;
-    width: 454px;
-    height: 93;
-    padding-left: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;  
     margin-top: 18px;
     font-size: 16px;
 }
@@ -124,6 +127,8 @@ h2 {
 
 h1 { 
     font-size: 44px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 footer {
