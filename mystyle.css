@@ -12,25 +12,29 @@ header {
     font-size: 20px;
 }
 
-.nav_a:hover {
+.type-a:hover {
+    text-decoration: underline;
+    text-decoration-color:dodgerblue;
+}
+
+.type-b:hover {
+    text-decoration: underline;
+    text-decoration-color:dodgerblue;
+}
+
+.type-c:hover {
     text-decoration: underline;
     text-decoration-color:dodgerblue;
     cursor: pointer;
 }
 
-.nav_c:hover {
-    text-decoration: underline;
-    text-decoration-color:dodgerblue;
-    cursor: pointer;
-}
-
-.nav_a {
+.type-a {
    display: inline-block;
    font-size: 20px;
    font-weight: 500;
 }
 
-.nav_b {
+.type-b {
     display: inline-block;
     color:#FF6464;
     margin-left: 20px;
@@ -38,7 +42,7 @@ header {
     font-weight: 500;
 }
 
-.nav_c {
+.type-c {
    display: inline-block;
    margin-left: 20px;
    font-size: 20px;
@@ -56,14 +60,14 @@ main {
     margin-top: 42px;
 }
 
-.box {
+.item {
     display: block;
     border-bottom: 1px solid #E0E0E0;
     padding-bottom: 37px;
     font-size: 0;
 }
 
-.box:nth-child(n + 2) {
+.item:nth-child(n + 2) {
     margin-top: 43px;
 }
 
@@ -73,7 +77,7 @@ main {
     vertical-align: top;
 }
 
-.box_s {
+.item-2 {
     display: inline-block;
     width: 418px;
     vertical-align: top;
@@ -88,7 +92,7 @@ h2 {
     font-size: 30px;
 }
 
-.box2 {
+.item-3 {
     display: inline-block;
     color: white;
     background-color: black;
@@ -100,7 +104,7 @@ h2 {
     font-family: Heebo;
 }
 
-.box3 {
+.item-4 {
     display: inline-block;
     color: #8695A4;
     margin-top: 0;
@@ -110,15 +114,11 @@ h2 {
     font-size: 20px;
 }
 
-.box4 {
-    margin-top: 18px;
-}
-
-.stc {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    overflow: hidden;  
+.item-sentence {
+    display: inline-block;
+    width: 454px;
+    height: 93;
+    padding-left: 18px;
     margin-top: 18px;
     font-size: 16px;
 }
@@ -139,12 +139,12 @@ footer {
     margin-top: 58px;
 }
 
-.imagebox {
+.item-logo {
     display: inline-block;
     margin-right: 35px;
 }
 
-.imagebox:last-child {
+.item-logo:last-child {
     margin-right: 0;
 }
 
@@ -152,7 +152,7 @@ footer img {
     display: block;
 }
 
-.footer_s {
+.postscript {
     margin-top: 26px;
     margin-bottom: 0    ;
     font-size: 14px;
