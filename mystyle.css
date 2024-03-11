@@ -1,5 +1,5 @@
 html {
-    font-family: inherit;
+    font-family: 'Heebo', sans-serif;
 }
 
 body {
@@ -15,11 +15,13 @@ header {
 .type-a:hover {
     text-decoration: underline;
     text-decoration-color:dodgerblue;
+    cursor: pointer;
 }
 
 .type-b:hover {
     text-decoration: underline;
     text-decoration-color:dodgerblue;
+    cursor: pointer;
 }
 
 .type-c:hover {
@@ -56,7 +58,7 @@ main {
     margin: 42px auto 0;
 }
 
-.box-list {
+.item-list {
     margin-top: 42px;
 }
 
@@ -90,6 +92,7 @@ h2 {
     display: block;
     margin: 0;
     font-size: 30px;
+    line-height: 44.06px;
 }
 
 .item-3 {
@@ -101,7 +104,6 @@ h2 {
     line-height: 25px;
     border-radius: 9999px;
     text-align: center;
-    font-family: Heebo;
 }
 
 .item-4 {
@@ -114,11 +116,15 @@ h2 {
     font-size: 20px;
 }
 
+.item-5 {
+    margin-top: 18px;
+}
+
 .item-sentence {
-    display: inline-block;
-    width: 454px;
-    height: 93;
-    padding-left: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;  
     margin-top: 18px;
     font-size: 16px;
 }
