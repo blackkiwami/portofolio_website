@@ -6,37 +6,41 @@ body {
     margin: 0;
 }
 
+body {
+    margin: 0;
+}
+
 header {
     text-align: right;
     padding: 20px 60px;
     font-size: 20px;
 }
 
-.type-a:hover {
+.nav_a:hover {
     text-decoration: underline;
     text-decoration-color:dodgerblue;
     cursor: pointer;
 }
 
-.type-b:hover {
+.nav_b:hover {
     text-decoration: underline;
     text-decoration-color:dodgerblue;
     cursor: pointer;
 }
 
-.type-c:hover {
+.nav_c:hover {
     text-decoration: underline;
     text-decoration-color:dodgerblue;
     cursor: pointer;
 }
 
-.type-a {
+.nav_a {
    display: inline-block;
    font-size: 20px;
    font-weight: 500;
 }
 
-.type-b {
+.nav_b {
     display: inline-block;
     color:#FF6464;
     margin-left: 20px;
@@ -44,7 +48,7 @@ header {
     font-weight: 500;
 }
 
-.type-c {
+.nav_c {
    display: inline-block;
    margin-left: 20px;
    font-size: 20px;
@@ -58,18 +62,18 @@ main {
     margin: 42px auto 0;
 }
 
-.item-list {
+.box-list {
     margin-top: 42px;
 }
 
-.item {
+.box {
     display: block;
     border-bottom: 1px solid #E0E0E0;
     padding-bottom: 37px;
     font-size: 0;
 }
 
-.item:nth-child(n + 2) {
+.box:nth-child(n + 2) {
     margin-top: 43px;
 }
 
@@ -79,7 +83,7 @@ main {
     vertical-align: top;
 }
 
-.item-2 {
+.box_s {
     display: inline-block;
     width: 418px;
     vertical-align: top;
@@ -95,7 +99,7 @@ h2 {
     line-height: 44.06px;
 }
 
-.item-3 {
+.box2 {
     display: inline-block;
     color: white;
     background-color: black;
@@ -104,9 +108,10 @@ h2 {
     line-height: 25px;
     border-radius: 9999px;
     text-align: center;
+    font-family: Heebo;
 }
 
-.item-4 {
+.box3 {
     display: inline-block;
     color: #8695A4;
     margin-top: 0;
@@ -116,11 +121,11 @@ h2 {
     font-size: 20px;
 }
 
-.item-5 {
+.box {
     margin-top: 18px;
 }
 
-.item-sentence {
+.stc {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
