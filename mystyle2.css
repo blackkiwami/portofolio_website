@@ -1,0 +1,144 @@
+html {
+    font-family: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    text-align: right;
+    padding: 20px 60px;
+    font-size: 20px;
+}
+
+.nav_a:hover {
+    text-decoration: underline;
+    text-decoration-color: dodgerblue;
+    cursor: pointer;
+}
+
+.nav_b:hover {
+    text-decoration: underline;
+    text-decoration-color: dodgerblue;
+    cursor: pointer;
+}
+
+.nav_c:hover {
+    text-decoration: underline;
+    text-decoration-color: dodgerblue;
+    cursor: pointer;
+}
+
+.nav_a {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav_b {
+    display: inline-block;
+    color:rgb(229, 36, 53);
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav_c {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+main {
+    display: block;
+    width: 681px;
+    margin: 42px auto 0;
+}
+
+h1 {
+    display: block;
+    font-size: 34px;
+    font-family: Heebo;
+}
+
+.box_2 {
+    display: inline-block;
+    color:aliceblue;
+    background-color: #FF7C7C;
+    width: 62px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 9999px;
+    text-align: center;
+    font-family: Heebo;
+}
+
+.box_3 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Heebo;
+    line-height: 29.38px;
+    margin-left: 10px;
+}
+
+.stc {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Heebo;
+    line-height: 23.5px;
+    margin-top: 20px;
+}
+
+.image {
+    margin-top: 45px;
+}
+
+h2 {
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Heebo;
+    line-height: 60px;
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+
+h3 {
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Heebo;
+    line-height: 60px;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding-top: 51px;
+    padding-bottom: 54px;
+    font-size: 0;
+    margin-top: 58px;
+}
+
+.imagebox {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.imagebox:last-child {
+    margin-right: 0;
+}
+
+footer img {
+    display: block;
+}
+
+.footer_s {
+    margin-top: 26px;
+    margin-bottom: 0;
+    font-size: 14px;
+}

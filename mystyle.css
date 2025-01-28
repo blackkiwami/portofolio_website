@@ -1,0 +1,170 @@
+html {
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    text-align: right;
+    padding: 20px 60px;
+    font-size: 20px;
+}
+
+.nav_a:hover {
+    text-decoration: underline;
+    text-decoration-color:dodgerblue;
+    cursor: pointer;
+}
+
+.nav_b:hover {
+    text-decoration: underline;
+    text-decoration-color:dodgerblue;
+    cursor: pointer;
+}
+
+.nav_c:hover {
+    text-decoration: underline;
+    text-decoration-color:dodgerblue;
+    cursor: pointer;
+}
+
+.nav_a {
+   display: inline-block;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.nav_b {
+    display: inline-block;
+    color:#FF6464;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav_c {
+   display: inline-block;
+   margin-left: 20px;
+   font-size: 20px;
+   font-weight: 500;
+
+}
+
+main {
+    display: block;
+    width: 682px;
+    margin: 42px auto 0;
+}
+
+.box-list {
+    margin-top: 42px;
+}
+
+.box {
+    display: block;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 37px;
+    font-size: 0;
+}
+
+.box:nth-child(n + 2) {
+    margin-top: 43px;
+}
+
+.image {
+    display: inline-block;
+    width: 246px;
+    vertical-align: top;
+}
+
+.box_s {
+    display: inline-block;
+    width: 418px;
+    vertical-align: top;
+    margin-left: 18px;
+}
+
+
+
+h2 {
+    display: block;
+    margin: 0;
+    font-size: 30px;
+    line-height: 44.06px;
+}
+
+.box2 {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    width: 62px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 9999px;
+    text-align: center;
+    font-family: Heebo;
+}
+
+.box3 {
+    display: inline-block;
+    color: #8695A4;
+    margin-top: 0;
+    margin-left: 26px;
+    width: 211px;
+    height: 29px;
+    font-size: 20px;
+}
+
+.box {
+    margin-top: 18px;
+}
+
+.stc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;  
+    margin-top: 18px;
+    font-size: 16px;
+}
+
+
+
+h1 { 
+    font-size: 44px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    padding-top: 51px;
+    padding-bottom: 54px; 
+    font-size: 0;
+    margin-top: 58px;
+}
+
+.item-logo {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.item-logo:last-child {
+    margin-right: 0;
+}
+
+footer img {
+    display: block;
+}
+
+.postscript {
+    margin-top: 26px;
+    margin-bottom: 0    ;
+    font-size: 14px;
+}
