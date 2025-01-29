@@ -1,0 +1,22 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.body {
+  display: block;
+  width: 420px;
+  height: 918px;
+}
+
+.notyetreadframe {
+  display: block;
+  padding-top: 40px;
+  margin-left: 10px;
+}
+
+.learning3 {
+  display: block;
+  margin-top: 40px;
+  margin-left: 10px;
+}
